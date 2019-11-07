@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.2cce8147.chunk.css",
-    "main.js": "/Portfolio-Website/static/js/main.360a1bc9.chunk.js",
-    "main.js.map": "/Portfolio-Website/static/js/main.360a1bc9.chunk.js.map",
-    "runtime~main.js": "/Portfolio-Website/static/js/runtime~main.101425da.js",
-    "runtime~main.js.map": "/Portfolio-Website/static/js/runtime~main.101425da.js.map",
-    "static/js/2.e0a3501e.chunk.js": "/Portfolio-Website/static/js/2.e0a3501e.chunk.js",
-    "static/js/2.e0a3501e.chunk.js.map": "/Portfolio-Website/static/js/2.e0a3501e.chunk.js.map",
+    "main.css": "/Portfolio-Website/static/css/main.b3267fe7.chunk.css",
+    "main.js": "/Portfolio-Website/static/js/main.47d26cac.chunk.js",
+    "main.js.map": "/Portfolio-Website/static/js/main.47d26cac.chunk.js.map",
+    "runtime~main.js": "/Portfolio-Website/static/js/runtime~main.f1a07520.js",
+    "runtime~main.js.map": "/Portfolio-Website/static/js/runtime~main.f1a07520.js.map",
+    "static/css/2.266e55a5.chunk.css": "/Portfolio-Website/static/css/2.266e55a5.chunk.css",
+    "static/js/2.305bdb8f.chunk.js": "/Portfolio-Website/static/js/2.305bdb8f.chunk.js",
+    "static/js/2.305bdb8f.chunk.js.map": "/Portfolio-Website/static/js/2.305bdb8f.chunk.js.map",
     "index.html": "/Portfolio-Website/index.html",
-    "precache-manifest.f987d991c707dad5f0b0a66a1b1ddf9b.js": "/Portfolio-Website/precache-manifest.f987d991c707dad5f0b0a66a1b1ddf9b.js",
+    "precache-manifest.7ab8e74f95d8239c8e830569bc9d9842.js": "/Portfolio-Website/precache-manifest.7ab8e74f95d8239c8e830569bc9d9842.js",
     "service-worker.js": "/Portfolio-Website/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/Portfolio-Website/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/Portfolio-Website/static/media/logo.5d5d9eef.svg"
+    "static/css/2.266e55a5.chunk.css.map": "/Portfolio-Website/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.b3267fe7.chunk.css.map": "/Portfolio-Website/static/css/main.b3267fe7.chunk.css.map",
+    "static/media/logo.10c87ffa.svg": "/Portfolio-Website/static/media/logo.10c87ffa.svg"
   }
 }
