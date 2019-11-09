@@ -1,0 +1,121 @@
+[{
+    "image":"https://janelynnc.github.io/Portfolio-Website/images/GooeyEncore.png",
+    "title":"A Gooey Encore VR",
+    "summary":"A Gooey Encore VR is first-person music shooter where the player is a former slime breeder that has a new desire to become the world's first slime musician by shooting slimes to play notes.​", 
+    "media":{
+        "css": {
+            "height":"100vh",
+            "allowfullscreen":"true"
+        },
+       "type":"iframe",
+       "src":"https://www.youtube.com/embed/1URTnXvNf9A"
+    },
+    "desc":"A Gooey Encore VR is a 2.5D, single-player, music shooter in first person. The game is for the HTC Vive. The player is a former slime breeder that has a new desire to become the world's first slime musician. In A Gooey Encore VR, the player must create music by breeding enough slimes. The performers are musical slimes that the player must shoot in order to play music. Wait until the circle that is on the slime fills up before shooting it. Play the right notes or else the audience will throw a fit. By shooting the right notes, the player increases their performance rating, and if they make too many mistakes and the reputation bar reaches 0, then the show will stop and the player loses. The player can also lose by not having enough slimes to complete the song. If they hit the right notes, the player may eventually finish the song and win the game. As the player shoots slimes, more slimes will spawn. The slimes have basic AI movement and will have abilities like dodging the crosshair so they won’t be shot. I was a programmer, artist, designer, and audio engineer."
+},
+{
+    "image":"https://janelynnc.github.io/Portfolio-Website/images/yokai-night-logo.png",
+    "title":"Yokai Nights",
+    "summary":"The player is a new security guard on the job, and the player gets themselves trapped in a haunted, alternate-dimensional world that is infested with Yokai.​", 
+    "media":{
+        "css": {
+            "height":"100vh",
+            "allowfullscreen":"true"
+        },
+       "type":"iframe",
+       "src":"https://www.youtube.com/embed/JPaEOpQjzjw"
+    },
+    "desc":"As we continued the development of Ghost Hunters, we took a different direction and made a new game that focuses on Japanese culture. The game is made in Unity and we have implemented the Oculus Rift for a more unique gameplay style. After having issues with players being confused with too many buttons on the Oculus and wanting to bring the equipment home, we decided to switch to the HTC Vive. I am general programmer on the team. The player is a new security guard on the job, and the player gets themselves trapped in a haunted, alternate-dimensional world that is infested with Yokai. They must fight Yokai, solve puzzles, and try to find a way to escape the castle before their soul is trapped there forever. "
+},
+{
+    "image":"https://janelynnc.github.io/Portfolio-Website/images/FoxChives.gif",
+    "title":"FoxChives",
+    "summary":"FoxChives is an AR narrative game made using Unity and ARKit where the player is an intern at the Archive Department at Fox who must save the Fox Studio Lot from an unknown force.​", 
+    "media":{
+        "css": {
+            "height":"100vh",
+            "allowfullscreen":"true"
+        },
+       "type":"img",
+       "src":"/Portfolio-Website/images/lot-map-gif-400x533_orig.gif"
+    },
+    "desc":"FoxChives is an AR narrative game made using Unity and ARKit intended for mobile phones and tablets. It involves having the player roleplay as an intern at the Archive Department at Fox where they go from a normal day at work to saving the Fox Studio Lot from an unknown force. The player must physically walk around the lot in Los Angeles, CA, to complete interactive quests and meet different IP from various franchises like Ice Age and Archer in order to complete their newfound mission to save the day. It was a successful experiment for meshing new technology like AR with storytelling in under nine weeks. The team consisted of a total of seven members. I was a gameplay programmer and worked with the team in the design, story elements, and playtesting of the game. I also worked on designing and implementing the interactions in the mixed-reality part of the Ice Age room, photo-op at the end of the game, and marketing campaign with the chests from Titanic where the player gets to choose one out of three chests to get a prize. At the end of the project, we got to present the project in front of different executives, directors, and staff of Fox. Assets were donated by FX and Blue Sky."
+},
+{
+    "image":"https://janelynnc.github.io/Portfolio-Website/images/After-Party-Panic.png",
+    "title":"After-Party Panic!",
+    "summary":"After-Party Panic! is a fast-paced, level-based game made in Unity where the player threw the raddest party on Earth but must clean up the entire house before their parents come home.", 
+    "media":{
+        "css": {
+            "height":"100vh",
+            "allowfullscreen":"true"
+        },
+       "type":"img",
+       "src":"/Portfolio-Website/images/After-Party-Panic.png"
+    },
+    "desc":"After-Party Panic! is a fast-paced, level-based game made in Unity where the player threw the raddest party on Earth but must clean up the entire house before their parents come home. Each room of the house is its own level, and as the player advances to different rooms, the levels get harder. The player must collect garbage around the house and put them in the trash can. They can only hold five items at a time and must go to a trash can to deposit the trash they are holding before they can pick up more. Once they finish cleaning a room, they collect a garbage bag to advance to the next level. After collecting a garbage bag from each room, they must go to the garbage bin at the end of the house to throw away all of the collected garbage bags without leaving a trace of evidence. As the player advances to each level, more trash is required to be picked up, and they must kick out remaining party guests. I programmed and designed the core loop of the game. The 3D assets are from the Unity Asset Store, and I created the 2D garbage bag UI. "
+},
+{
+    "image":"https://janelynnc.github.io/Portfolio-Website/images/wharfparty.png",
+    "title":"Wharf Party!",
+    "summary":"Wharf Party! is an educational PS4 prototype game made in Unity that advertises the Santa Cruz Wharf to players.​", 
+    "media":{
+        "css": {
+            "height":"100vh",
+            "allowfullscreen":"true"
+        },
+       "type":"img",
+       "src":"https://janelynnc.github.io/Portfolio-Website/images/wharfpartyxd.png"
+    },
+    "desc":"Wharf Party! is an educational game made in Unity that is similar to the Mario Party! games. It is a PS4 prototype game that advertises the Santa Cruz Wharf to players. It requires two DualShock 4 controllers to play. In one-player mode, the player can walk around the wharf and explore it freely, but in two-player mode, the players are competing against each other to collect the most trophies. The minigames are based on actual landmarks in the wharf, like Woodies Cafe and Marini's At The Wharf. The game was created by me, Toby Kwan, Kevin Wu, and Kyle SooHoo. We had many prototypes of this game and had multiple playtesting sessions to make it even better. This was created in just ten weeks. I worked on programming, design, and 2-D art."
+},
+{
+    "image":"https://janelynnc.github.io/Portfolio-Website/images/u7whTK.png",
+    "title":"Go, Tofu Witch, Go!",
+    "summary":"Click Learn More on a computer to play an embed version!", 
+    "media":{
+        "css": {
+            "height":"700px",
+            "width":"100vw"
+        },
+       "type":"iframe",
+       "src":"https://itch.io/embed-upload/459561?color=333333"
+    },
+    "desc":"Go, Tofu Witch, Go! is an endless runner made in Phaser. I worked on programming, created the art and animations, and made the music. The player is a tofu witch creature that is flying through different universes collecting stars. If the player crashes against a pink obstacle, then the game is over. There is a high score feature, and players can choose what level they want to play in, Each level is a different universe with different backgrounds and music."
+},{
+    "image":"https://janelynnc.github.io/Portfolio-Website/images/ItsAlive.png",
+    "title":"It's Alive!",
+    "summary":"It’s Alive! is a PC game made in Unity where the player is a mad scientist who must connect body parts to create terrifying and unique monsters.", 
+    "media":{
+        "css": {
+            "height":"100vh"
+        },
+       "type":"img",
+       "src":"https://janelynnc.github.io/Portfolio-Website/images/ItsAlive.png"
+    },
+    "desc":"It's Alive! is a game that I made along with Oleksandra \"Saya\" Keehl, Toby Kwan, Christopher Huynh, and Ericka Dunn using Unity. I was a UI/Gameplay Programmer and Sound Engineer. I made the music for the levels and designed the base layout  for the main menu. The game is similar to Tetris, but body parts fall down instead of blocks. There are six level modes and three level speeds. The player must connect body parts to form a monster, and when a monster is formed, they can destroy it for points. A monster is formed when a heart and a head are connected. For modes, there are Regular, Monochrome, Tenacious, Regular ∞, Monochrome ∞, and Tenacious ∞. In infinite mode, the player keeps playing until too many blocks reach the top. Regular - Connect any body part to another one (as long as it is connectable) Monochrome - Connect any body parts that are the same color Tenacious - Create ten monsters For speed, there are Sluggish, Lively, and Hyper. They affect the speed of the block when it drops. The player can choose any mode with any state, and there is a high score system to add competition."
+},{
+    "image":"https://janelynnc.github.io/Portfolio-Website/images/spoke-it.jpg",
+    "title":"Spoke It",
+    "summary":"SpokeIt is an NSF-funded mobile and tablet speech therapy game that is targeted towards children with cleft speech disabilities. ", 
+    "media":{
+        "css": {
+            "height":"100vh"
+        },
+       "type":"img",
+       "src":"https://janelynnc.github.io/Portfolio-Website/images/spoke-it.jpg"
+    },
+    "desc":"SpokeIt is an NSF-funded mobile and tablet speech therapy game that is targeted towards children with cleft speech disabilities. By having multiple minigames that focus on different speech problems, children can exercise and practice their speech everyday while also having fun. The game takes in voice input and does not require tapping on the screen at any time. The quirky characters and calm voice acting cater to young children that it does not feel like an educational game. Throughout the project, I worked with the team to analyze users through BORIS, which is a tool that allows the researcher to watch the captured video feed and digitally make notes by using key codes. I also collaborated and pair-programmed with other team members to create a minigame and surveys. One of the problems of the speech-recognition system was that it would not detect high-pitched, female voices, which was ironic since it was targeted to children. I trained and adapted my voice to create an acoustic model since my voice was similar to a child's voice."
+},{
+    "image":"https://janelynnc.github.io/Portfolio-Website/images/FG_thumb.png",
+    "title":"Family Gathering",
+    "summary":"Family Gathering is a social game made in Android Studio that uses the Google Translate API and Vidyo.io API to translate.", 
+    "media":{
+        "css": {
+            "height":"100vh"
+        },
+       "type":"img",
+       "src":"https://janelynnc.github.io/Portfolio-Website/images/FamilyGathering.png"
+    },
+    "desc":"Family Gathering is a social game made in Android Studio that uses the Google Translate API and Vidyo.io API for translating and using live video feed.  I worked with Toby Kwan and Kyle SooHoo to create this game. I worked on design and programming the game in Java. There are two versions of this game: one is the digital version (for those who are far away or not in the same room) and the other is the analog card version (for those in the same room). The game works like charades except with different languages."
+}
+]

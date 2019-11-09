@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#logo{
+  fill:#fff;
+  width: 85pt;
+  height:auto;
+  transition: fill 1s ease-in-out;
+}
+
+#logo:hover{
+  fill: greenyellow;
+}
+
+#logo:active{
+  animation: spin .5s ease-in-out
+}
+
+@keyframes spin{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

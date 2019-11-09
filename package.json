@@ -2,11 +2,20 @@
   "name": "personalwebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://janelynnc.github.io/Portfolio-Website",
+  "homepage": "https://janelynnc.com/",
   "dependencies": {
+    "@material-ui/core": "^4.6.0",
+    "@material-ui/styles": "^4.6.0",
+    "bootstrap": "^4.3.1",
+    "color": "^3.1.2",
+    "foundation-sites": "^6.5.3",
     "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.11",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.0"
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.0",
+    "reactstrap": "^8.0.1",
+    "typescript": "^3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
