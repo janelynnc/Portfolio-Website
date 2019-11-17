@@ -23,6 +23,20 @@ const baseTheme = createMuiTheme({
     text:{
       primary:'#fff'
     }
+  },
+  overrides:{
+    MuiSpeedDialIcon:{
+      openIconOpen:{
+        color:'#adff2f'
+      }
+    },
+    MuiSpeedDialAction:{
+      fab:{
+        '&:hover':{
+          color:'#adff2f'
+        }  
+      }
+    }
   }
 });
 function App() {

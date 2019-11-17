@@ -14,15 +14,15 @@ const useStyle = theme => ({
       flexShrink:'0',
       flexBasis:'250px',
       margin:'8px',
-      transition: 'all 1s linear'
+      transition: 'all 1s linear',
+      
     },
     media: {
         height:'200px',
         width:'auto'
     },
     full_card:{
-        flexBasis:'auto',
-        transition: 'all 1s linear'
+        flexBasis:'auto'
     },
   })
 
@@ -64,10 +64,10 @@ class ProjectCard extends React.Component{
         }
 
         return (
-          <Card ref={this.myRef} className={this.state.fullCard ? classes.full_card:classes.card}>
-            <CardActionArea>
+          <Card ref={this.myRef} raised={true} className={this.state.fullCard ? classes.full_card:classes.card}>
+            <CardActionArea onClick={this.handleToggle}>
               {Media}
-              <CardContent>
+              <CardContent >
                 <Typography gutterBottom variant="h5" component="h2">
                   {this.props.title}
                 </Typography>

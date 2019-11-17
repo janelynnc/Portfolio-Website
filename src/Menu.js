@@ -7,9 +7,9 @@ import { ReactComponent as Logo } from './logo.svg';
 export default function Menu() {
   const [value, setValue] = React.useState(0);
   const menuItems = [
-    { label: 'Projects', path:"/Portfolio-Website/Projects"},
-    { label: 'About', path:"/Portfolio-Website/About" },
-    { label: 'Contact', path:"/Portfolio-Website/Contact" }
+    { label: 'Projects', path:"/Projects"},
+    { label: 'About', path:"/About" },
+    { label: 'Contact', path:"/Contact" }
   ];
   const handleChange = (newValue) => {
     setValue(newValue);
@@ -17,7 +17,7 @@ export default function Menu() {
 
   return (
     <div>
-      <Link to="/Portfolio-Website">
+      <Link to="/">
         <Logo id="logo"  onClick={() => handleChange(0)}/>
       </Link>
       <AppBar style = {{'background-color':'#fff', 'margin-bottom':'15px'}} position="sticky">
