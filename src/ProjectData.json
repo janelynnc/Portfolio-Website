@@ -1,4 +1,18 @@
 [{
+    "image":"https://img.itch.zone/aW1nLzM3NjY4MTEucG5n/315x250%23c/231MDM.png",
+    "title":"Statistically in love",
+    "summary":"An experimental visual novel that teaches the basics of data and research.​", 
+    "media":{
+        "css": {
+            "height":"80vh",
+            "allowfullscreen":"true"
+        },
+       "type":"iframe",
+       "src":"https://drive.google.com/file/d/1-iVsWJm3ZrgtwMHCFmnZ6F3FRSq32zco/preview"
+    },
+    "desc":"Play now on <a href='https://jcamingue.itch.io/educational-visual-novel'>itch.io</a> "
+},
+{
     "image":"https://janelynnc.com/images/GooeyEncore.png",
     "title":"A Gooey Encore VR",
     "summary":"A Gooey Encore VR is first-person music shooter where the player is a former slime breeder that has a new desire to become the world's first slime musician by shooting slimes to play notes.​", 
