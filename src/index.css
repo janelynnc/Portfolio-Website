@@ -23,6 +23,10 @@ code {
   fill: greenyellow;
 }
 
+#itchio:hover{
+  fill:greenyellow;
+}
+
 #logo:active{
   animation: spin .5s ease-in-out
 }
