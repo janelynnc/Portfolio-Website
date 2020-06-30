@@ -1,7 +1,8 @@
 [{
-    "image":"https://janelynnc.com/images/GooeyEncore.png",
+    "type":"game",
+    "image":"images/GooeyEncore.png",
     "title":"A Gooey Encore VR",
-    "summary":"A Gooey Encore VR is first-person music shooter where the player is a former slime breeder that has a new desire to become the world's first slime musician by shooting slimes to play notes.​", 
+    "summary":"A Gooey Encore VR is first-person music shooter where the player is a former slime breeder that has a new desire to become the world's first slime musician by shooting slimes to play notes.​",
     "media":{
         "css": {
             "height":"80vh",
@@ -11,11 +12,12 @@
        "src":"https://www.youtube.com/embed/1URTnXvNf9A"
     },
     "desc":"A Gooey Encore VR is a 2.5D, single-player, music shooter in first person. The game is for the HTC Vive. The player is a former slime breeder that has a new desire to become the world's first slime musician. In A Gooey Encore VR, the player must create music by breeding enough slimes. The performers are musical slimes that the player must shoot in order to play music. Wait until the circle that is on the slime fills up before shooting it. Play the right notes or else the audience will throw a fit. By shooting the right notes, the player increases their performance rating, and if they make too many mistakes and the reputation bar reaches 0, then the show will stop and the player loses. The player can also lose by not having enough slimes to complete the song. If they hit the right notes, the player may eventually finish the song and win the game. As the player shoots slimes, more slimes will spawn. The slimes have basic AI movement and will have abilities like dodging the crosshair so they won’t be shot. I was a programmer, artist, designer, and audio engineer."
-},
+  },
 {
-    "image":"https://janelynnc.com/images/yokai-night-logo.png",
+    "type":"game",
+    "image":"images/yokai-night-logo.png",
     "title":"Yokai Nights",
-    "summary":"The player is a new security guard on the job, and the player gets themselves trapped in a haunted, alternate-dimensional world that is infested with Yokai.​", 
+    "summary":"The player is a new security guard on the job, and the player gets themselves trapped in a haunted, alternate-dimensional world that is infested with Yokai.​",
     "media":{
         "css": {
             "height":"80vh",
@@ -27,51 +29,55 @@
     "desc":"As we continued the development of Ghost Hunters, we took a different direction and made a new game that focuses on Japanese culture. The game is made in Unity and we have implemented the Oculus Rift for a more unique gameplay style. After having issues with players being confused with too many buttons on the Oculus and wanting to bring the equipment home, we decided to switch to the HTC Vive. I am general programmer on the team. The player is a new security guard on the job, and the player gets themselves trapped in a haunted, alternate-dimensional world that is infested with Yokai. They must fight Yokai, solve puzzles, and try to find a way to escape the castle before their soul is trapped there forever. "
 },
 {
-    "image":"https://janelynnc.com/images/FoxChives.gif",
+    "type":"game",
+    "image":"images/FoxChives.gif",
     "title":"FoxChives",
-    "summary":"FoxChives is an AR narrative game made using Unity and ARKit where the player is an intern at the Archive Department at Fox who must save the Fox Studio Lot from an unknown force.​", 
+    "summary":"FoxChives is an AR narrative game made using Unity and ARKit where the player is an intern at the Archive Department at Fox who must save the Fox Studio Lot from an unknown force.​",
     "media":{
         "css": {
             "height":"80vh",
             "allowfullscreen":"true"
         },
        "type":"img",
-       "src":"https://janelynnc.com/images/lot-map-gif-400x533_orig.gif"
+       "src":"images/lot-map-gif-400x533_orig.gif"
     },
     "desc":"FoxChives is an AR narrative game made using Unity and ARKit intended for mobile phones and tablets. It involves having the player roleplay as an intern at the Archive Department at Fox where they go from a normal day at work to saving the Fox Studio Lot from an unknown force. The player must physically walk around the lot in Los Angeles, CA, to complete interactive quests and meet different IP from various franchises like Ice Age and Archer in order to complete their newfound mission to save the day. It was a successful experiment for meshing new technology like AR with storytelling in under nine weeks. The team consisted of a total of seven members. I was a gameplay programmer and worked with the team in the design, story elements, and playtesting of the game. I also worked on designing and implementing the interactions in the mixed-reality part of the Ice Age room, photo-op at the end of the game, and marketing campaign with the chests from Titanic where the player gets to choose one out of three chests to get a prize. At the end of the project, we got to present the project in front of different executives, directors, and staff of Fox. Assets were donated by FX and Blue Sky."
 },
 {
-    "image":"https://janelynnc.com/images/After-Party-Panic.png",
+    "type":"game",
+    "image":"images/After-Party-Panic.png",
     "title":"After-Party Panic!",
-    "summary":"After-Party Panic! is a fast-paced, level-based game made in Unity where the player threw the raddest party on Earth but must clean up the entire house before their parents come home.", 
+    "summary":"After-Party Panic! is a fast-paced, level-based game made in Unity where the player threw the raddest party on Earth but must clean up the entire house before their parents come home.",
     "media":{
         "css": {
             "height":"80vh",
             "allowfullscreen":"true"
         },
        "type":"img",
-       "src":"https://janelynnc.com/images/After-Party-Panic.png"
+       "src":"images/After-Party-Panic.png"
     },
     "desc":"After-Party Panic! is a fast-paced, level-based game made in Unity where the player threw the raddest party on Earth but must clean up the entire house before their parents come home. Each room of the house is its own level, and as the player advances to different rooms, the levels get harder. The player must collect garbage around the house and put them in the trash can. They can only hold five items at a time and must go to a trash can to deposit the trash they are holding before they can pick up more. Once they finish cleaning a room, they collect a garbage bag to advance to the next level. After collecting a garbage bag from each room, they must go to the garbage bin at the end of the house to throw away all of the collected garbage bags without leaving a trace of evidence. As the player advances to each level, more trash is required to be picked up, and they must kick out remaining party guests. I programmed and designed the core loop of the game. The 3D assets are from the Unity Asset Store, and I created the 2D garbage bag UI. "
 },
 {
-    "image":"https://janelynnc.com/images/wharfparty.png",
+    "type":"game",
+    "image":"images/wharfparty.png",
     "title":"Wharf Party!",
-    "summary":"Wharf Party! is an educational PS4 prototype game made in Unity that advertises the Santa Cruz Wharf to players.​", 
+    "summary":"Wharf Party! is an educational PS4 prototype game made in Unity that advertises the Santa Cruz Wharf to players.​",
     "media":{
         "css": {
             "height":"80vh",
             "allowfullscreen":"true"
         },
        "type":"img",
-       "src":"https://janelynnc.github.io/Portfolio-Website/images/wharfpartyxd.png"
+       "src":"images/wharfpartyxd.png"
     },
     "desc":"Wharf Party! is an educational game made in Unity that is similar to the Mario Party! games. It is a PS4 prototype game that advertises the Santa Cruz Wharf to players. It requires two DualShock 4 controllers to play. In one-player mode, the player can walk around the wharf and explore it freely, but in two-player mode, the players are competing against each other to collect the most trophies. The minigames are based on actual landmarks in the wharf, like Woodies Cafe and Marini's At The Wharf. The game was created by me, Toby Kwan, Kevin Wu, and Kyle SooHoo. We had many prototypes of this game and had multiple playtesting sessions to make it even better. This was created in just ten weeks. I worked on programming, design, and 2-D art."
 },
 {
-    "image":"https://janelynnc.com/images/u7whTK.png",
+    "type":"game",
+    "image":"images/u7whTK.png",
     "title":"Go, Tofu Witch, Go!",
-    "summary":"Click Learn More on a computer to play an embed version!", 
+    "summary":"Click Learn More on a computer to play an embed version!",
     "media":{
         "css": {
             "height":"700px",
@@ -82,40 +88,295 @@
     },
     "desc":"Go, Tofu Witch, Go! is an endless runner made in Phaser. I worked on programming, created the art and animations, and made the music. The player is a tofu witch creature that is flying through different universes collecting stars. If the player crashes against a pink obstacle, then the game is over. There is a high score feature, and players can choose what level they want to play in, Each level is a different universe with different backgrounds and music."
 },{
-    "image":"https://janelynnc.com/images/ItsAlive.png",
+    "type":"game",
+    "image":"images/ItsAlive.png",
     "title":"It's Alive!",
-    "summary":"It’s Alive! is a PC game made in Unity where the player is a mad scientist who must connect body parts to create terrifying and unique monsters.", 
+    "summary":"It’s Alive! is a PC game made in Unity where the player is a mad scientist who must connect body parts to create terrifying and unique monsters.",
     "media":{
         "css": {
             "height":"80vh"
         },
        "type":"img",
-       "src":"/images/ItsAlive.png"
+       "src":"images/ItsAlive.png"
     },
     "desc":"It's Alive! is a game that I made along with Oleksandra \"Saya\" Keehl, Toby Kwan, Christopher Huynh, and Ericka Dunn using Unity. I was a UI/Gameplay Programmer and Sound Engineer. I made the music for the levels and designed the base layout  for the main menu. The game is similar to Tetris, but body parts fall down instead of blocks. There are six level modes and three level speeds. The player must connect body parts to form a monster, and when a monster is formed, they can destroy it for points. A monster is formed when a heart and a head are connected. For modes, there are Regular, Monochrome, Tenacious, Regular ∞, Monochrome ∞, and Tenacious ∞. In infinite mode, the player keeps playing until too many blocks reach the top. Regular - Connect any body part to another one (as long as it is connectable) Monochrome - Connect any body parts that are the same color Tenacious - Create ten monsters For speed, there are Sluggish, Lively, and Hyper. They affect the speed of the block when it drops. The player can choose any mode with any state, and there is a high score system to add competition."
 },{
-    "image":"https://janelynnc.com/images/spoke-it.jpg",
+    "type":"game",
+    "image":"images/spoke-it.jpg",
     "title":"Spoke It",
-    "summary":"SpokeIt is an NSF-funded mobile and tablet speech therapy game that is targeted towards children with cleft speech disabilities. ", 
+    "summary":"SpokeIt is an NSF-funded mobile and tablet speech therapy game that is targeted towards children with cleft speech disabilities. ",
     "media":{
         "css": {
             "height":"80vh"
         },
        "type":"img",
-       "src":"https://janelynnc.github.io/Portfolio-Website/images/spoke-it.jpg"
+       "src":"images/spoke-it.jpg"
     },
     "desc":"SpokeIt is an NSF-funded mobile and tablet speech therapy game that is targeted towards children with cleft speech disabilities. By having multiple minigames that focus on different speech problems, children can exercise and practice their speech everyday while also having fun. The game takes in voice input and does not require tapping on the screen at any time. The quirky characters and calm voice acting cater to young children that it does not feel like an educational game. Throughout the project, I worked with the team to analyze users through BORIS, which is a tool that allows the researcher to watch the captured video feed and digitally make notes by using key codes. I also collaborated and pair-programmed with other team members to create a minigame and surveys. One of the problems of the speech-recognition system was that it would not detect high-pitched, female voices, which was ironic since it was targeted to children. I trained and adapted my voice to create an acoustic model since my voice was similar to a child's voice."
 },{
-    "image":"https://janelynnc.github.io/Portfolio-Website/images/FG_thumb.png",
+    "type":"game",
+    "image":"images/FG_thumb.png",
     "title":"Family Gathering",
-    "summary":"Family Gathering is a social game made in Android Studio that uses the Google Translate API and Vidyo.io API to translate.", 
+    "summary":"Family Gathering is a social game made in Android Studio that uses the Google Translate API and Vidyo.io API to translate.",
     "media":{
         "css": {
             "height":"80vh"
         },
        "type":"img",
-       "src":"https://janelynnc.github.io/Portfolio-Website/images/FamilyGathering.png"
+       "src":"images/FamilyGathering.png"
     },
     "desc":"Family Gathering is a social game made in Android Studio that uses the Google Translate API and Vidyo.io API for translating and using live video feed.  I worked with Toby Kwan and Kyle SooHoo to create this game. I worked on design and programming the game in Java. There are two versions of this game: one is the digital version (for those who are far away or not in the same room) and the other is the analog card version (for those in the same room). The game works like charades except with different languages."
+},
+{
+  "type":"game",
+  "image": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/2018-05-17-1_orig.png",
+  "title": "Thu'um",
+  "summary":"Thu'um is a tabletop card game that is based off of Skyrim. It utilizes the game's shout mechanic. I made this with four other people.",
+  "media":{
+    "type":"img",
+    "src":"https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/2018-05-17-3_orig.png"
+  },
+  "desc": "We playtested two seperate versions of the game. Another iteration accommodated up to four players an played in a similiar style to that of Uno only with three decks to draw from instead of one. But gameplay became tedious and mundane with a single playthrough taking just over an hour. Refining and balancing the numbers took several playtests. In designing the cards we tried to make the information as clear as possible while keeping the theme closely related to Skyrim."
+},
+{
+  "type":"game",
+  "image": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/screenshot-3_orig.png",
+  "title": "Dog Days",
+  "summary": "Dog Days is a game where you play from the perspective of a dog waiting for their owner to come back home.",
+  "media":{
+    "type": "img",
+    "src": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/screenshot-1_orig.png"
+  },
+  "desc": "For the Global Game Jam 2019, Toby Kwan and I made a game based on my dog, Cutiepie. For us, home is where someone is always waiting for you to return. The game is made in Unity, and I worked on making the cover page, music, sound effects, and programming some of the missions. The life of pet dog, always waiting. Dog Days is a game where you play from the perspective of a dog waiting for their owner to come back home. You do what most dogs do everyday: try to stop your owner from leaving, waiting faithfully at the window, and being a good boy. The game uses the standard WASD keyboard and mouse for movement."
+},
+{
+  "type":"game",
+  "image": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/screenshot-9_orig.png",
+  "title": "Ghost Hunters",
+  "summary": "Ghost Hunters is a 3D co-op game where the goal of the players is to find and eliminate ghosts by working together.",
+  "media":{
+    "type": "img",
+    "src": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/screenshot-9_orig.png"
+  },
+  "desc": "Ghost Hunters is a 3D co-op game where the goal of the players is to find and eliminate ghosts by working together. One player plays as a paranormal cameraman and is able to set up and toggle between various cameras in the asylum rooms. The other player plays as a Priest/ Exorcist and is able to move between rooms and defeat the ghosts. Since neither character has the other’s abilities, they must work together to achieve a common goal. The cameraman controls cameras remotely in relative safety but must always be aware of how much battery each camera has remaining. The priest is able to move around freely but is not able to accurately attack ghosts without the cameraman’s assistance. This game is a PS4 and Xbox One prototype. It was made in Unity with a team of six, including me, in about three weeks. Our team, Shooting Star, consisted of mainly programmers and no 3D artists, so we utilized the Unity Asset Store for visual 3D assets. I was one of the gameplay programmers and worked on mapping player controls to controllers, keyboard, and mouse. I also worked on implementing the battery-draining effect where if the camera runs out of battery, it dies. "
+},
+{
+    "type":"game",
+    "image": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/screenshot-87_orig.png",
+    "title": "The Hungry, Hungry Zombie",
+    "summary": "The Hungry, Hungry Zombie is a PC game made in Unity where the player is a zombie who must overcome falling platforms while eating as much steak as they can before the end of the world.",
+    "media":{
+      "type": "img",
+      "src": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/screenshot-87_orig.png"
+    },
+    "desc": "The Hungry, Hungry Zombie is a PC game made in Unity where the player is a zombie who must overcome falling platforms while eating as much steak as they can before the end of the world. It's an apocalypse, and the world is crumbling down as we know it! The player a zombie who is trying to survive by eating what is left in this world: steak. The player must eat as much steak as they can while not dying (again). I was a programmer, and I got the assets from the Unity Asset Store. I was inspired by the dancing minigame in MapleStory 2. I wanted to create a fast-paced game where the player feels a sense of agency and stress while completing the goal. I enjoy games where the player must beat themselves by getting a better score than their last one. The game has replayability, and the falling platforms and amount of time the player has to collect as much steak as they can are randomized, so different playthroughs may be more stressful than others."
+},
+{   "type":"game",
+    "image": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/yerbamatesprototype1coverphoto_orig.png",
+    "title": "Daikon Druid",
+    "summary": "Daikon Druid is an adventurous and fun 8-bit pixel game made in Unity where the player controls a magical druid wandering through a forest and interacting with their surroundings.",
+    "media":{
+      "type": "img",
+      "src": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/yerbamatesprototype1coverphoto_orig.png"
+    },
+    "desc": "Daikon Druid is an adventurous and fun 8-bit pixel game made in Unity where the player controls a magical druid wandering through a forest and interacting with their surroundings. The game tests for different reactions from players when certain events occur based on the player's choices. It originally looks like a standard Legend of Zelda RPG, but as the player keeps on playing, they realize that the user interface is actually unimportant. For example, there are enemy AIs, which are the bears. When the player is in close proximity with the enemy, this causes the player to feel uncomfortable due to them losing health, but as the health bar depletes to zero, the enemy goes back to its idle position, and the player is still alive instead of being dead like in traditional games. Also, as the player clicks on the user interface icons like the bag to check what is inside, they realize that the bag is not clickable as well as the other icons. My team and I created this game in about three weeks. Yerba Mates, our team, was consisted of eight people, including me. I was a gameplay programmer and worked on the enemy AI, player interactions, brainstorming, and version control."
+},
+{
+    "type":"game",
+    "image": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/endlessmode_orig.png",
+    "title": "Trash Toss",
+    "summary": "Trash Toss is an educational mobile game that was made using Unity.",
+    "media":{
+      "type": "img",
+      "src": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/endlessmode_orig.png"
+    },
+    "desc": "Trash Toss is an educational mobile game that was made using Unity. It is currently on the Google Play store and can be played for free. With quirky yet realistic visuals, the game is targeted toward children, but ultimately, this game is for anyone who wants to know how to recycle right. The game teaches players what to recycle and the consequences for recycling the wrong item. The simple UI reflects waste management and real life conflicts like how money is lost when the wrong item is put into the wrong bin. I was a software engineer and game designer on the team. I worked on fixing bugs, implementing new features, and creating the complex items using Adobe Illustrator, Pixlr, and Inkscape. I was on the Computer Science team, and I worked closely with the Outreach side of the Trash Toss team to get information and implement it in the game. For example, I reached out to them to get a list of complex items to make and add to the game."
+},
+{
+    "type":"game",
+    "image": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/2018-03-28-4_orig.png",
+    "title": "Clean Freak",
+    "summary": "Clean Freak is a game that I made with Talon Baker using GameMaker Studio in Steam.",
+    "media":{
+      "type": "img",
+      "src": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/published/2018-03-28-5.png?1522228167"
+    },
+    "desc": "Clean Freak is a game that I made with Talon Baker using GameMaker Studio in Steam. The player is a janitor who is so obsessed with being clean that he/she wears a hazmat suit. The player's cleaning supplies are scattered around the different areas that the player must wander around to pick them up and equip them to use as weapons to clean the dust bunnies and defeat them in order for the whole area to be clean. Each cleaning supply has their own stats for damage against the dust bunnies. They each have their own specific animation when the player uses them. I worked on making the cleaning supplies and implementing the weapon wheel system as well as creating an enemy AI."
+},
+{
+    "type":"game",
+    "image": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/published/2017-03-12-43.png?1522226091",
+    "title": "A Date With Destiny",
+    "summary": "A Date With Destiny is a graphical narrative where the player must earn tickets in order to save someone's life.",
+    "media":{
+      "type": "img",
+      "src": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/published/2017-03-12-43.png?1522226091"
+    },
+    "desc": "A Date With Destiny is a graphical narrative where the player must earn tickets in order to save someone's life. The player takes the role of the husband who goes on a date with his wife at the town's carnival. Everything seems to go well, and in the beginning, the minigames, which are the carnival games, seem normal, but after a certain point in the game, an evil wizard who was posing as the carnival's fortune teller kidnaps the player's wife. In order to get her back, the player must play minigames to obtain a certain amount of tickets within a given time. The appearance of the carnival changes to have an evil and eerie look. For instance, the staff have been replaced with the wizard's henchmen. The minigames look creepier as well. There are multiple endings. One is where the player gets enough tickets, dies in a minigame, and when the player does not get enough tickets in time. The minigames are based on actual carnival games like the duck shooting gallery and plinko. The assets are credited in the game. I made this game using GameMaker."
+},
+{
+    "type":"game",
+    "image": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/2018-03-28-1_orig.png",
+    "title": "Back Then",
+    "summary": "Back Then was made using Twine for the 2017 Spring Thing Festival.",
+    "media":{
+      "type": "img",
+      "src": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/2018-03-28-1_orig.png"
+    },
+    "desc": "Back Then was made using Twine for the 2017 Spring Thing Festival. It is a fictional game where the player is a college student who is dissatisfied with her current state of her relationship with her boyfriend. The player has choices whether to remember certain memories when she and her boyfriend were happy together at the risk of having the player's character to feel even more depressed after having flashbacks but in return, the player will learn more about their character."
+},
+{
+    "type":"game",
+    "image": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/pro1_orig.png",
+    "title": "Procrastination: The Game",
+    "summary": "The game has six endings which are all about procrastination. I was inspired by my friend because although he was in college, he still manages to procrastinate on everything, especially essays.",
+    "media":{
+      "type": "img",
+      "src": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/published/2017-02-01-1.png?1522224217"
+    },
+    "desc": "Procrastination is a game I made and finished on January 26, 2016. This is the first game I made using Twine 2.0. I was trying to get a feel on how to use Twine 2.0. The game has six endings which are all about procrastination. I was inspired by my friend because although he was in college, he still manages to procrastinate on everything, especially essays. I had fun making this game. I came up with the story line, did the coding, and wrote the text."
+},
+{
+    "type":"game",
+    "image": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/published/je2.png?1522223400",
+    "title": "Jungle Escape",
+    "summary": "Jungle Escape was created using Twine 1.4.2. The player is a character who is stuck in the jungle.",
+    "media":{
+      "type": "img",
+      "src": "https://jcamingue.weebly.com/uploads/9/8/9/5/98950030/je1_orig.png"
+    },
+    "desc": "Jungle Escape was created using Twine 1.4.2. I made this game with a partner named Axel Murrillo. The player is a character who is stuck in the jungle. He or she must try to escape by getting the correct resources and items scattered around the jungle. There are many endings, and this game was meant to be played more than one so players can experience the different endings and explore different areas of the jungle. This text-based game has an inventory system, so if a player discovers an item, they \"pick it up\" and it is stored in their inventory to use for later."
+},
+{
+    "type":"game",
+    "image": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/published/2017-01-21_2.png?1522222738",
+    "title": "Bubble Wave (Global Game Jam 2017)",
+    "summary": "The secret theme of the event was \"waves,\" so I decided to make a path in the shape of a wave and gave the game a water/bubble theme.",
+    "media":{
+      "type": "img",
+      "src": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/published/2017-01-21_2.png?1522222738"
+    },
+    "desc": "I made this game by myself for the Global Game Jam 2017 at UCSC on January 21, 2017. This is the first game I coded. It took about 3 to 4 hours to accomplish using the free version of Game Maker Studio on Steam. The secret theme of the event was \"waves,\" so I decided to make a path in the shape of a wave and gave the game a water/bubble theme. The main objective is to collect as many bubbles as possible without hitting the sides of the room and touching the red triangles that can pop the player, who is a bubble as well. The player must reach the green square to finish the game. Only the arrow keys are used to control the movement of the bubble. The art, coding, and idea was mine."
+},
+{
+    "type": "non-game",
+    "image": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/loveletterscreenshot_orig.png",
+    "title": "Love Letter Generator",
+    "summary": "This is a web app made using P5JS that generates contents for a love letter.",
+    "media":{
+      "type": "img",
+      "src": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/loveletterscreenshot_orig.png"
+    },
+    "desc": "This is a web app made using P5JS that generates contents for a love letter. It uses a procedural generation algorithm based off of a sourced text to generate new and original sentences for the love letter."
+},
+{
+    "type": "non-game",
+    "image": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/screenshot-81_orig.png",
+    "title": "Brighten-My-Day Idea Generator",
+    "summary": "This an idea generator made with P5JS that is specifically geared towards couples who have no idea what to give their significant other but want to do something nice for them.",
+    "media":{
+      "type": "img",
+      "src": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/screenshot-81_orig.png"
+    },
+    "desc": "This an idea generator made with P5JS that is specifically geared towards couples who have no idea what to give their significant other but want to do something nice for them."
+},
+{
+    "type": "non-game",
+    "image": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/headlinegeneratorscreenshot_orig.png",
+    "title": "Wacky News Chat Bot",
+    "summary": "This is a news chat bot that spits out nonsense that is going on in the world. ",
+    "media":{
+      "type": "img",
+      "src": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/headlinegeneratorscreenshot_orig.png"
+    },
+    "desc": "This is a news chat bot that spits out nonsense that is going on in the world. It was made using P5JS, and it utilizes a procedural content generation algorithm to create sentences that are considered news headlines. It was inspired by looking at Facebook and seeing news pages use wacky headlines as clickbait."
+},
+{
+    "type": "non-game",
+    "image": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/ex5-2-01_orig.jpg",
+    "title": "Facebook Designs",
+    "summary": "These are some mockups for ideas of changing the Facebook layout for mobile. I created the design, buttons and icons using Adobe Illustrator. ",
+    "media":{
+      "type": "img",
+      "src": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/ex5-2-01_orig.jpg"
+    },
+    "desc": "These are some mockups for ideas of changing the Facebook layout for mobile. I created the design, buttons and icons using Adobe Illustrator."
+},
+{
+    "type": "non-game",
+    "image": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/mockup-01.png",
+    "title": "Final Design for InstaFab",
+    "summary": "The web app allows users to create an account and post pictures that include outfits or just items.",
+    "media":{
+      "type": "img",
+      "src": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/mockup-post-02.png"
+    },
+    "desc": "This was the final design chosen for Instafab, a web app that is similar to Instagram. The web app allows users to create an account and post pictures that include outfits or just items. They can tag where they bought it to solve the issue of always being asked where they got it from. Other users can rate posts and even favorite them, which adds to their feed. "
+},
+{
+    "type": "non-game",
+    "image": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/screenshot-84_orig.png",
+    "title": "Object Manipulator Tool",
+    "summary": "This is a Unity web app that manipulates 3D objects like a cube, cylinder, and sphere.",
+    "media":{
+      "type": "img",
+      "src": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/screenshot-84_orig.png"
+    },
+    "desc": "This is a Unity web app that manipulates 3D objects like a cube, cylinder, and sphere. It allows the user to change the size, position, rotation, shape, color, and shader of the selected object. Also, the user can save and load the changes they made."
+},
+{
+    "type": "non-game",
+    "image": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/screenshot-26_orig.png",
+    "title": "Designs for TutorHub",
+    "summary": "TutorHub is a solution for students to offer/receive tutoring services.",
+    "media":{
+      "type": "img",
+      "src": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/screenshot-22_1_orig.png"
+    },
+    "desc": "TutorHub is a solution for students to offer/receive tutoring services. College is expensive, so the app is made for students who want to receive extra income. It is also targeted towards students who need extra assistance in understanding the material in classes. It is an in-progress web app that will be mobile-friendly. It is being made using React.js. I am a designer and front-end programmer. I paper prototyped the profile page and page for looking up different tutors. I also did user experience research with current UC Santa Cruz students to improve the design."
+},
+{
+    "type": "non-game",
+    "image": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/backstagehomepagewireframe1-1_orig.png",
+    "title": "Fox's Intranet Wireframes",
+    "summary": "I created a mock-up of FOX's Help Desk page using Adobe Illustrator and proposed it to the Technology group, and it was approved to be in the final design of the intranet.",
+    "media":{
+      "type": "img",
+      "src": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/backstagehomepagewireframe1-1_orig.png"
+    },
+    "desc": "As an IT intern at FOX Networks Group, I was able to analyze data, create designs and wireframes, and propose new ideas. I joined the company when FOX was changing their workflows after the merger with Disney. One of my jobs was to redesign FOX's employee intranet. FOX was using Simpplr as a template to create their current intranet, so I watched videos on what Simpplr can provide and based my designs off of that. I went on each page of the current intranet and listed what I did and did not like. Also, I researched other companies' intranets and the best practices on making one. To create my wireframes, I used Adobe XD and proposed my designs to the Executive Director of the Technology division. Also, I created a mock-up of FOX's Help Desk page using Adobe Illustrator and proposed it to the Technology group, and it was approved to be in the final design of the intranet."
+},
+{
+    "type": "non-game",
+    "image": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/onepagerdraft3-1_orig.png",
+    "title": "Diversity Of Women In Tech Infographic",
+    "summary": "Here are two infographics that I created in Adobe Illustrator to show gender demographics within the tech industry",
+    "media":{
+      "type": "img",
+      "src": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/onepagerdraft3-1_orig.png"
+    },
+    "desc": "Here are two infographics that I created in Adobe Illustrator to show gender demographics within the tech industry.The first infographic compares the diversity of women in tech in Fortune 500 companies and startups. It also shows the diversity of women in tech with from companies that have around the same amount of employees as FOX. Furthermore, at the bottom, it lists the best practices that the ten companies used as well as the partnerships they made. The second infographic goes even further and shows the statistics of three companies and what they did to reach those numbers. In creating these infographics, I made a Quip document and researched over twenty startup and Fortune 500 companies. I looked up the public information they had on their diversity of women in tech and non-tech roles. Then, I consolidated that information and made it into a bold, yet colorful one-pager that was inspired by FOX's style guide. I created the backgrounds and graphs in Adobe Illustrator."
+},
+{
+    "type": "non-game",
+    "image": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/foxaipacingdraft3_orig.png",
+    "title": "FOX.AI Mobile App Designs",
+    "summary": "At FOX, I had to come up with mobile designs for the FOX.AI desktop application to visualize FOX's ad sense data.",
+    "media":{
+      "type": "img",
+      "src": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/foxaipacingdraft3_orig.png"
+    },
+    "desc": "At FOX, I had to come up with mobile designs for the FOX.AI desktop application to visualize FOX's ad sense data. I worked with the Creative Director of the project who was redesigning the desktop application. I studied his redesigns and the current functioning desktop applications to come up with designs to propose to the Creative Director and the Director of Data Products and ML Strategy. I used Sketch, Invision, and Zeplin to create and share my work with the team."
+},
+{
+    "type": "non-game",
+    "image": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/published/beforeandafter.png?1559708346",
+    "title": "Triangle Art Generator",
+    "summary": "​This is a web app made with P5JS that takes in an image and procedurally recreates it using triangles.",
+    "media":{
+      "type": "img",
+      "src": "http://jcamingue.weebly.com/uploads/9/8/9/5/98950030/published/beforeandafter.png?1559708346"
+    },
+    "desc": "​This is a web app made with P5JS that takes in an image and procedurally recreates it using triangles."
 }
 ]

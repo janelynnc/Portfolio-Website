@@ -1,13 +1,14 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import './App.css';
-import {BrowserRouter as Router, Route} from "react-router-dom"
+import {HashRouter as Router, Route} from "react-router-dom"
 import Menu from './Menu.js';
 import { createMuiTheme } from "@material-ui/core";
 import { ThemeProvider} from "@material-ui/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Project from "./Project.js"
-import { textAlign } from '@material-ui/system';
+import ProjectData from './ProjectData.json';
+import ProjectCard from './ProjectCard.js';
 const baseTheme = createMuiTheme({
   palette:{
     type: 'dark',
@@ -53,6 +54,22 @@ function App() {
                   <Route path={"/"} exact component={Project}/>
                   <Route path={"/About"} component={About}/>
                   <Route path={"/Projects"} component={Project}/>
+                  {
+                    ProjectData.map((item) => {
+                      const path = item.title.replace(/ /g, "-");
+                      return(
+                        <Route path={`/${path}`} component={()=> 
+                          <ProjectCard image={item.image} 
+                                      title={item.title}
+                                      summary={item.summary}
+                                      media={item.media}
+                                      desc={item.desc}
+                                      type={item.type}
+                                      fullCard={true}/>}
+                        />
+                      );
+                    })
+                  }
                 </div>
                 
             </Router>
