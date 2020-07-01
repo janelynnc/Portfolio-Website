@@ -7,8 +7,9 @@ import { createMuiTheme } from "@material-ui/core";
 import { ThemeProvider} from "@material-ui/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Project from "./Project.js"
-import ProjectData from './ProjectData.json';
 import ProjectCard from './ProjectCard.js';
+import { withFirebase} from './Firebase';
+
 const baseTheme = createMuiTheme({
   palette:{
     type: 'dark',
@@ -40,25 +41,38 @@ const baseTheme = createMuiTheme({
     }
   }
 });
-function App() {
-  return (
+class App extends React.Component{
+  constructor(props){
+    super(props);
+    this.state = {
+      projects: []
+    }
+  }
+
+  async componentDidMount(){
+    let data = await this.props.firebase.GetVal('projects');
+    this.setState({projects:data});
+  }
+
+  render() {
+    return (
     <React.Fragment>
       
         <ThemeProvider theme={baseTheme}>
           <CssBaseline/>
-          <Container maxWidth='md'>
+          <Container maxWidth='lg'>
           <Router>
 
               <Menu></Menu>
                 <div>
-                  <Route path={"/"} exact component={Project}/>
+                  <Route path={"/"} exact component={withFirebase(Project)}/>
                   <Route path={"/About"} component={About}/>
-                  <Route path={"/Projects"} component={Project}/>
+                  <Route path={"/Projects"} component={withFirebase(Project)}/>
                   {
-                    ProjectData.map((item) => {
+                    this.state.projects.map((item) => {
                       const path = item.title.replace(/ /g, "-");
                       return(
-                        <Route path={`/${path}`} component={()=> 
+                        <Route key={item.title} path={`/${path}`} component={()=> 
                           <ProjectCard image={item.image} 
                                       title={item.title}
                                       summary={item.summary}
@@ -76,21 +90,18 @@ function App() {
           </Container>
         </ThemeProvider>
     </React.Fragment>
-  );
+    );
+  }
 }
 
-function Home(){
-  return(
-    <p>This is homepage</p>
-  );
-}
+
 
 function About(){
   return(
     <div>
-      <h2 style={{"text-align":"center"}}>About Me</h2>
+      <h2 style={{textAlign:"center"}}>About Me</h2>
       <div>
-      <img style={{"clip-path":"circle(50% at 50% 50%)", "float":"right", "width":"250px","margin":"10px"}}src={"https://janelynnc.github.io/Portfolio-Website/images/0.jfif"}></img>
+      <img style={{clipPath:"circle(50% at 50% 50%)", "float":"right", "width":"250px","margin":"10px"}}src={"https://janelynnc.github.io/Portfolio-Website/images/0.jfif"} alt=""></img>
       <h6>I am an energetic and creative first-year master's student attending the University of California, Santa Cruz (UCSC) majoring in Games and Playable Media. As an undergraduate at UCSC, I studied Computer Science: Computer Game Design. I am passionate towards gaming that I decided to pursue it as a career. My dream is to be a technical game designer who will revolutionize visual novels with new technologies like VR and AR. After my internship at 20th Century FOX, I was inspired to pursue my studies to create new and memorable experiences in interactive storytelling.</h6>
       <h6> My favorite type of games are narrative, story-rich RPGs where the player can make choices and sculpt their own character in the game. Of all the games I have played, my favorite game series is the Mass Effect Trilogy, but if we're going into specifics, my favorite game of all time is Mass Effect 3.</h6>
       <h6>My second favorite type of games are visual novels. Some key favorites are from Voltage Inc. and Otomate. I love an exciting romance, and any game where I can take the role of a character and have the option or goal to romance someone is my cup of tea.</h6>
@@ -101,11 +112,7 @@ function About(){
   );
 }
 
-function Projects(){
-  return(
-    <p>This is project page</p>
-  );
-}
+
 
 
 

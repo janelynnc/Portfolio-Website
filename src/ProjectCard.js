@@ -1,4 +1,4 @@
-import React , { useLayoutEffect }from 'react';
+import React from 'react';
 import { withStyles } from '@material-ui/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -8,13 +8,13 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import {Redirect,Link} from "react-router-dom"
-import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
+import ReactHtmlParser from 'react-html-parser';
 
 const useStyle = theme => ({
     card: {
       flexGrow:'1',
       flexShrink:'0',
-      flexBasis:'250px',
+      flexBasis:'30%',
       margin:'8px',
       transition: 'all 0.5s linear',
       display:"flex",

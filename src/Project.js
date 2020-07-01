@@ -7,7 +7,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 
-const cards = ProjectData.reverse().map(item => <ProjectCard image={item.image} 
+let cards = ProjectData.projects.reverse().map(item => <ProjectCard key={item.title} image={item.image} 
   title={item.title} summary={item.summary} media={item.media} desc={item.desc} type={item.type} fullCard={false}></ProjectCard>)
 class Project extends React.Component{
     constructor(props){
@@ -18,10 +18,21 @@ class Project extends React.Component{
       }
       this.handleChange = this.handleChange.bind(this);
     }
+
+    async componentDidMount(){
+      this.mounted = true;
+      let data = await this.props.firebase.GetVal('projects');
+      if(this.mounted){
+        cards = data.reverse().map(item => <ProjectCard key={item.title} image={item.image} 
+          title={item.title} summary={item.summary} media={item.media} desc={item.desc} type={item.type} fullCard={false}></ProjectCard>)
+        this.setState({display:cards});
+      }
+    }
+
     handleChange(event){
       let type = event.target.value;
       this.setState({
-        display:cards.filter(card => card.props.type == type || type == "any"),
+        display:cards.filter(card => card.props.type === type || type === "any"),
         type:type
       });
     }
@@ -51,6 +62,10 @@ class Project extends React.Component{
       </Box>
         </div>
       );
+    }
+
+    componentWillUnmount(){
+      this.mounted = false;
     }
 }
 export default Project

@@ -24,13 +24,13 @@ export default function Menu() {
         <ITCHIO id="itchio"/>
       </Link>
 
-      <AppBar style = {{'background-color':'#fff', 'margin-bottom':'15px'}} position = 'sticky'>
+      <AppBar style = {{backgroundColor:'#fff', marginBottom:'15px'}} position = 'sticky'>
         <div style={{'display':'flex'}}>
           <Typography type="title" color="primary" align="left" style={{ margin:'auto', marginLeft:'10px' }}>
             Janelynn Camingue
           </Typography>
           <ContainedTabs
-            style={{'align-self':'flex-end'}}
+            style={{alignSelf:'flex-end'}}
             tabs={menuItems}
             value={value}
             onChange={(e,i) => handleChange(i)}
