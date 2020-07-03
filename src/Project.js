@@ -29,7 +29,7 @@ class Project extends React.Component{
         if(firelink){
           let firelinkedCards = Object.values(firelink).map(item => <ProjectCard key={item.title} image={item.image} 
             title={item.title} summary={item.summary} media={item.media} desc={item.desc} type={item.type} fullCard={false}></ProjectCard>);
-          cards = cards.concat([firelinkedCards]);
+          cards = cards.concat(firelinkedCards);
         }
         this.setState({display:cards});
       }
