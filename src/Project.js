@@ -22,9 +22,15 @@ class Project extends React.Component{
     async componentDidMount(){
       this.mounted = true;
       let data = await this.props.firebase.GetVal('projects');
+      let firelink = await this.props.firebase.GetVal('flamelink/environments/production/content/project/en-US');
       if(this.mounted){
         cards = data.reverse().map(item => <ProjectCard key={item.title} image={item.image} 
-          title={item.title} summary={item.summary} media={item.media} desc={item.desc} type={item.type} fullCard={false}></ProjectCard>)
+          title={item.title} summary={item.summary} media={item.media} desc={item.desc} type={item.type} fullCard={false}></ProjectCard>);
+        if(firelink){
+          let firelinkedCards = Object.values(firelink).map(item => <ProjectCard key={item.title} image={item.image} 
+            title={item.title} summary={item.summary} media={item.media} desc={item.desc} type={item.type} fullCard={false}></ProjectCard>);
+          cards = cards.concat([firelinkedCards]);
+        }
         this.setState({display:cards});
       }
     }

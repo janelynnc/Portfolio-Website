@@ -51,6 +51,8 @@ class App extends React.Component{
 
   async componentDidMount(){
     let data = await this.props.firebase.GetVal('projects');
+    let firelink = await this.props.firebase.GetVal('flamelink/environments/production/content/project/en-US');
+    data = data.concat(Object.values(firelink));
     this.setState({projects:data});
   }
 
@@ -69,7 +71,12 @@ class App extends React.Component{
                   <Route path={"/About"} component={About}/>
                   <Route path={"/Projects"} component={withFirebase(Project)}/>
                   {
-                    this.state.projects.map((item) => {
+                    this.state.projects.map((item) => 
+                    {
+                      console.log(item);
+                      if(item.title == null){
+                        return;
+                      }
                       const path = item.title.replace(/ /g, "-");
                       return(
                         <Route key={item.title} path={`/${path}`} component={()=> 

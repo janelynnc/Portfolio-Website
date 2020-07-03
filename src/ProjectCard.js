@@ -9,12 +9,14 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import {Redirect,Link} from "react-router-dom"
 import ReactHtmlParser from 'react-html-parser';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const useStyle = theme => ({
     card: {
       flexGrow:'1',
       flexShrink:'0',
       flexBasis:'30%',
+      minWidth:'250px',
       margin:'8px',
       transition: 'all 0.5s linear',
       display:"flex",
@@ -61,7 +63,7 @@ class ProjectCard extends React.Component{
         const { classes } = this.props;
         let Media,Expand,Message;
         if(!this.state.fullCard){
-            Media = <CardMedia className={classes.media} image={this.props.image} title={this.props.title}/>
+            Media = <CardMedia className={classes.media} title={this.props.title}><LazyLoadImage style={{width:"100%",height:"100%"}} src={this.props.image}/></CardMedia>
             Expand = <Button size="small" color="secondary" component={Link} to={this.state.path}>
                         Learn More
                      </Button>
