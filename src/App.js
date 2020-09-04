@@ -8,11 +8,13 @@ import { ThemeProvider} from "@material-ui/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Project from "./Project.js"
 import ProjectCard from './ProjectCard.js';
+import Porfolio from './Portfolio.js'
 import { withFirebase} from './Firebase';
+import Portfolio from './Portfolio';
 
 const baseTheme = createMuiTheme({
   palette:{
-    type: 'dark',
+    type: 'light',
     primary:{
       main:'#121212'
     },
@@ -20,13 +22,34 @@ const baseTheme = createMuiTheme({
       main:'#03DAC5'
     },
     background:{
-      default:'#121212'
+      default:'#ffffff'
     },
     text:{
-      primary:'#fff'
+      primary:'#000'
     }
   },
   overrides:{
+    MuiTypography:{
+      colorTextSecondary:{
+        color:"#000"
+      }
+    },
+    MuiDivider:{
+      root:{
+        height:"5px",
+        backgroundColor:"#000"
+      }
+    },
+    MuiTabs:{
+      root:{
+        minHeight:`10px`
+      }
+    },
+    MuiTab:{
+      root:{
+        minHeight:`10px`
+      }
+    },
     MuiSpeedDialIcon:{
       openIconOpen:{
         color:'#adff2f'
@@ -67,13 +90,12 @@ class App extends React.Component{
 
               <Menu></Menu>
                 <div>
-                  <Route path={"/"} exact component={withFirebase(Project)}/>
-                  <Route path={"/About"} component={About}/>
+                  <Route path={"/"} exact component={withFirebase(Portfolio)}/>
+                  <Route path={"/Publications"} component={Publications}/>
                   <Route path={"/Projects"} component={withFirebase(Project)}/>
                   {
                     this.state.projects.map((item) => 
                     {
-                      console.log(item);
                       if(item.title == null){
                         return;
                       }
@@ -119,6 +141,19 @@ function About(){
   );
 }
 
+function Publications(){
+  return(
+    <div>
+      <h3>Peer Reviewed Conference and Journal Publications</h3>
+      <hr/>
+      <ul>
+        <li>
+			Janelynn Camingue, <i>Edward F. Melcer</i>, and Elin Carstensdottir. (2020). <a href="" target="_blank">“A (Visual) Novel Route to Learning: A Taxonomy of Educational Visual Novels”</a>. In Proceedings of the 15th international conference on the Foundations of Digital Games. FDG ’20, Malta. ACM.
+		    </li>
+      </ul>
+    </div>
+  );
+}
 
 
 

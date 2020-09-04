@@ -13,8 +13,8 @@
   }));
   
   const useTabStyles = makeStyles(({ palette, spacing, breakpoints }) => {
-    const defaultBgColor = palette.common.white;
-    const defaultSelectedBgColor = '#121212';
+    const defaultBgColor = palette.common.black;
+    const defaultSelectedBgColor = palette.common.black;
     const defaultMinWidth = {
       md: 120,
     };
@@ -26,11 +26,10 @@
       root: ({
         bgColor = defaultBgColor,
         minWidth = defaultMinWidth,
-        selectedBgColor = defaultSelectedBgColor,
       }) => ({
         opacity: 1,
         overflow: 'initial',
-        color: palette.common.black,
+        color: palette.common.white,
         backgroundColor: bgColor,
         transition: '0.2s',
         [breakpoints.up('md')]: {
@@ -48,7 +47,7 @@
             height: 20,
             width: 1,
             zIndex: 1,
-            backgroundColor: palette.grey[300],
+            //backgroundColor: palette.grey[300],
           },
         },
         '& + $selected:before': {
@@ -58,7 +57,7 @@
            'color': 'inherit', /* blue colors for links too */
            'text-decoration': 'none', /* no underline */
           '&:not($selected)': {
-            color: palette.common.white,
+            color: '#83E279',
             backgroundColor: Color(palette.primary.main)
               .fade(.15)
               .toString(),
@@ -72,8 +71,10 @@
         },
       }),
       selected: ({ selectedBgColor = defaultSelectedBgColor }) => ({
+        fontFamily: `"Centuary Gothic", sans-serif`,
+        fontWeight:900,
         backgroundColor: selectedBgColor,
-        color: getTextColor(selectedBgColor),
+        color: '#83E279',
         '& + $root': {
           zIndex: 1,
         },
@@ -96,6 +97,7 @@
         {tabs.map(tab => (
           <Tab key={tab.label} component={Link} to={tab.path} {...tabProps} {...tab} classes={tabClasses}/>
         ))}
+        <a class="MuiButtonBase-root MuiTab-root makeStyles-root-2 makeStyles-root-5 MuiTab-textColorInherit Mui-selected makeStyles-selected-3 makeStyles-selected-6" target="_blank" tabindex="0" role="tab" aria-disabled="false" aria-selected="true" path="/" href="https://firebasestorage.googleapis.com/v0/b/portfolio-535ed.appspot.com/o/flamelink%2Fmedia%2FJanelynn%20Camingue%20Resume_%20WarnerMedia.pdf?alt=media&token=95080a2f-79dd-4249-9917-c5e4a28dfcc5" download><span class="MuiTab-wrapper makeStyles-wrapper-4">RESUME</span><span class="MuiTouchRipple-root"></span></a>
       </Tabs>
     );
   };

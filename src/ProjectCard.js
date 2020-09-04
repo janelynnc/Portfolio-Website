@@ -21,17 +21,23 @@ const useStyle = theme => ({
       transition: 'all 0.5s linear',
       display:"flex",
       flexFlow:"column",
-      justifyContent:"space-between"
+      justifyContent:"space-between",
+      textAlign:"center"
     },
     media: {
         height:'200px',
-        width:'auto'
+        width:'auto',
+        paddingTop:'20px'
     },
     full_card:{
         marginBottom:'10px',
         flexBasis:'auto',
         zIndex:'2000'
     },
+    full_card_media:{
+      width:'auto',
+      margin:'auto'
+    }
   })
 
 class ProjectCard extends React.Component{
@@ -63,13 +69,13 @@ class ProjectCard extends React.Component{
         const { classes } = this.props;
         let Media,Expand,Message;
         if(!this.state.fullCard){
-            Media = <CardMedia className={classes.media} title={this.props.title}><LazyLoadImage style={{width:"100%",height:"100%"}} src={this.props.image}/></CardMedia>
+            Media = <CardMedia className={classes.media} title={this.props.title}><LazyLoadImage style={{height:"100%"}} src={this.props.image}/></CardMedia>
             Expand = <Button size="small" color="secondary" component={Link} to={this.state.path}>
                         Learn More
                      </Button>
             Message = this.props.summary
         }else{
-            Media = <CardMedia component={this.props.media.type} style={this.props.media.css} image={this.props.media.src} title={this.props.title}/>
+            Media = <CardMedia className={classes.full_card_media} component={this.props.media.type} style={this.props.media.css} image={this.props.media.src} title={this.props.title}/>
             Expand = <Button size="small" color="secondary" component={Link} to={"/Projects"}>
                         Return To Projects
                      </Button>
