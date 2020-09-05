@@ -52,6 +52,8 @@ class Portfolio extends React.Component{
       return(
         <div>
       <Box display="flex" flexDirection="column" flexWrap="wrap-reverse" justifyContent="space-evenly">
+       <p style={{"margin-left":"20px","margin-right":"20px"}}>I am a second-year master's student for the Games and Playable Media program at the University of California-Santa Cruz. I have a special interest in Visual Novels and have worked on a variety of games.</p> 
+      <Divider />
       <Typography gutterBottom variant="h4" component="h2">
            Professional Game Development
       </Typography>
