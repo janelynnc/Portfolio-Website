@@ -97,7 +97,10 @@
         {tabs.map(tab => (
           <Tab key={tab.label} component={Link} to={tab.path} {...tabProps} {...tab} classes={tabClasses}/>
         ))}
-        <a class="MuiButtonBase-root MuiTab-root makeStyles-root-2 makeStyles-root-5 MuiTab-textColorInherit Mui-selected makeStyles-selected-3 makeStyles-selected-6" target="_blank" tabindex="0" role="tab" aria-disabled="false" aria-selected="true" path="/" href="https://firebasestorage.googleapis.com/v0/b/portfolio-535ed.appspot.com/o/flamelink%2Fmedia%2FJanelynn%20Camingue%20Resume_%20WarnerMedia.pdf?alt=media&token=95080a2f-79dd-4249-9917-c5e4a28dfcc5" download><span class="MuiTab-wrapper makeStyles-wrapper-4">RESUME</span><span class="MuiTouchRipple-root"></span></a>
+        <a class="MuiButtonBase-root MuiTab-root makeStyles-root-2 makeStyles-root-5 MuiTab-textColorInherit Mui-selected makeStyles-selected-3 makeStyles-selected-6" target="_blank" tabindex="0" role="tab" aria-disabled="false" aria-selected="true" 
+        path="/" 
+        href="https://firebasestorage.googleapis.com/v0/b/portfolio-535ed.appspot.com/o/flamelink%2Fmedia%2FJanelynn%20Camingue's%20Resume_%20As%20of%209_25_20.pdf?alt=media&token=792f9bd0-9832-4584-9652-bc9a5f29823e" 
+        download><span class="MuiTab-wrapper makeStyles-wrapper-4">RESUME</span><span class="MuiTouchRipple-root"></span></a>
       </Tabs>
     );
   };
